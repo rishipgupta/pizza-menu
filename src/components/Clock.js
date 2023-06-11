@@ -10,9 +10,9 @@ const Clock = () => {
   });
 
   return (
-    <div>
-      {time};
-    </div>
+    <span>
+      {time}!
+    </span>
   )
 }
 
