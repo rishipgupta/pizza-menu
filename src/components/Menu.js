@@ -3,18 +3,19 @@ import { pizzaData } from '../data'
 
 const Menu = () => {
   return (
-    <div>
+    <main className='menu'>
+      <h2>Our Menu</h2>
       {pizzaData.map((pizza) => {
         return (
           <div>
             {/* images are placed in public folder so that we can dynamically reference the path easily */}
             <img src={pizza.photoName} alt={`${pizza.name}`} />
-            <h2>{pizza.name}</h2>
+            <h3>{pizza.name}</h3>
             <p>{pizza.ingredients}</p>
           </div>
         )
       })}
-    </div>
+    </main>
   )
 }
 

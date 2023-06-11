@@ -3,9 +3,9 @@ import Clock from './Clock';
 
 const Footer = () => {
   return (
-    <div>
-      <h2>We are currently open <Clock /></h2>
-    </div>
+    <footer className='footer'>
+      We are currently open! <Clock />
+    </footer>
   )
 }
 
