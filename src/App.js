@@ -8,6 +8,7 @@ function App() {
       <Header />
       <Menu />
       <Footer />
+      <button className="btn">Order</button>
     </div>
   );
 }
